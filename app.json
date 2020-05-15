@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/demo/demo",
+    "pages/animal/animal"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/demo/demo"
+      },
+      {
+        "pagePath": "pages/animal/animal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+<!--pages/demo/demo.wxml-->
+<view class="center">
+  <cover-image class="round-icon" src="../assets/pusheen.png" alt="kitty"></cover-image>
+  <p style="color: darkcyan; font-size: 40rpx">🎉 Hello, world!</p>
+  <p>{{datetime}}</p>
+  <view style="margin: 20rpx" class="horizontal">
+    <van-button class="v-button" bindtap="showText" plain type="info">LUMOS</van-button>
+    <van-button class="v-button" bindtap="addText" plain type="info">打在公屏上</van-button>
+  </view>
+  <p wx:if="{{visible}}">呀！发现我了！😱</p>
+  <view wx:for="{{textList}}" wx:key="index">
+    {{item}}
+  </view>
+</view>
+<tabbar active="{{0}}"></tabbar>

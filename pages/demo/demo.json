@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "奇奇怪怪的示例",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "tabbar": "../components/tabbar/tabbar"
+  }
+}

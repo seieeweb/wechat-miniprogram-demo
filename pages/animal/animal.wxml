@@ -1,0 +1,13 @@
+<!--pages/animal/animal.wxml-->
+<view>
+  <van-cell-group>
+    <van-field center clearable label="🐟" placeholder="ヾ(•ω•`)o" border="{{ false }}" use-button-slot bind:change="onInputChange">
+      <van-button slot="button" size="small" plain type="info" bindtap="fetchInfo">🎣</van-button>
+    </van-field>
+  </van-cell-group>
+</view>
+<view class="center">
+  <cover-image src="{{image}}"></cover-image>
+  <p class="name">{{name}}</p>
+</view>
+<tabbar active="{{1}}"></tabbar>

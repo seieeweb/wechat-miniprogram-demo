@@ -1,0 +1,5 @@
+<!--pages/components/tabbar/tabbar.wxml-->
+<van-tabbar active="{{ active }}" bind:change="onChange">
+  <van-tabbar-item icon="home-o">首页</van-tabbar-item>
+  <van-tabbar-item icon="like-o">另一个页面</van-tabbar-item>
+</van-tabbar>
